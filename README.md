@@ -1,1 +1,4 @@
-# Common-Understanding
+# Common-Understanding（ドリルししゃもでの共通認識）
+- ライブラリ: ツール 
+- ディレクトリ: フォルダ 
+## 命名規則の確立
