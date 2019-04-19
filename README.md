@@ -20,3 +20,16 @@
 - Upper Camel Case
 - ex: UserService, LoginRepository
 ## コーディングルール
+### インスタンス生成時:
+`new`は付けない
+### コンストラクタ定義
+コンストラクタ引数に`@required`を付け必須項目に  
+nullが代入された時に警告を出すため，`assert`を追加
+```
+LoginBloc({
+    @required this.userService,
+    @required this.authenticationBloc,
+  })  : assert(userService != null),
+        assert(authenticationBloc != null);
+```
+## アーキテクチャ
