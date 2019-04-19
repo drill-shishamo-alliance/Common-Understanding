@@ -7,5 +7,16 @@
 - butachin: フロントエンド，車運転
 - ShotaroOkada: フロントエンド，ファシリテート，発表
 ## 命名規則の確立
-- ディレクトリ名
-- 
+### ディレクトリ
+- １単語で収める．２単語以上にはしない．
+- ex: domain, infrastructure
+### 変数
+- Lower Camel Case
+- ex: userId, accessToken
+### 関数
+- Lower Camel Case
+- ex: getUserId, getUserName
+### クラス
+- Upper Camel Case
+- ex: UserService, LoginRepository
+## コーディングルール
