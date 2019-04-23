@@ -41,7 +41,7 @@ LoginBloc({
 **使用するbranch**
 - master 
 - feature/your_branch
-- Bug/your_branch
+- fix/your_branch
 
 ## Commit/merge
 機能単位実装、１機能１merge
