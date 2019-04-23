@@ -44,7 +44,7 @@ LoginBloc({
 - Bug/your_branch
 
 ## Commit/merge
-機能単位実装、１機能１commit１merge
+機能単位実装、１機能１merge
 
 Rebaseしてからmergeしよう!!
 
