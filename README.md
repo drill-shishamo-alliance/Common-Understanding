@@ -33,3 +33,24 @@ LoginBloc({
         assert(authenticationBloc != null);
 ```
 ## アーキテクチャ
+
+## Git
+
+### branch 管理
+
+**使用するbranch**
+- master 
+- feature/your_branch
+- Bug/your_branch
+
+## Commit/merge
+機能単位実装、１機能１commit１merge
+
+Rebaseしてからmergeしよう!!
+
+私は**Rebase&Merge派**です
+
+PullRequestはみんなをassignしとこう
+
+
+
